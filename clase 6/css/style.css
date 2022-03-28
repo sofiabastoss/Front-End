@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+*{
+    margin: 0;
+}
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+header img{
+    margin: 1rem 0 1rem 0;
+}
+.title{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Marcellus SC', serif;
+}
+h1.title{
+    text-align: center;
+    margin-bottom: 10vh;
+    letter-spacing: 0.8rem;
+}
+h2.title{
+    text-indent: 1rem;
+}
+.no-text-decoration{
+    list-style: none;
+}
+section{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-2{
+    height: 20vh;
+}
+.section-2 ul{
+    padding-inline-start: 1rem;
+}
+.section-3{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 30vh;
+    margin-bottom: 5vh;
+}
+.section-3 ul{
+    margin-top: 1rem;
+    padding-inline-start: 1rem;
+}
+.section-3 ul li{
+    margin-bottom: 0.3rem;
+}
+p{
+    text-indent: 5rem;
+}
+span{
+    font-weight: bold;  
+}
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+    padding: 1vh;
+    font-family: 'Marcellus SC', serif;
+    letter-spacing: 0.7rem;
+}
+li{
+    line-height: 1.3rem;
+}
+.logo{
+    margin: 0.5rem 1rem 0 1rem;
+    vertical-align: baseline;
+}
